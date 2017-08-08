@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide_ludhiana.MainActivity">
+
+    <!-- Restaurants category -->
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:text="Restaurants"
+        android:background="@color/category_restaurants"/>
+
+    <!-- Parks category -->
+    <TextView
+        android:id="@+id/parks"
+        style="@style/CategoryStyle"
+        android:text="Parks"
+        android:background="@color/category_parks"/>
+
+    <!-- Images category -->
+
+    <TextView
+        android:id="@+id/pictures"
+        style="@style/CategoryStyle"
+        android:text="Pictures of Ludhiana"
+        android:background="@color/category_pictures"/>
+
+    <!-- Shopping category -->
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:text="Shopping"
+        android:background="@color/category_shopping"/>
+</LinearLayout>
