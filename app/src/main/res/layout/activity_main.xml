@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context="com.example.android.tourguide_ludhiana.MainActivity">
 
+    <TextView
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="Welcome to Ludhiana!"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium" />
+
     <!-- Restaurants category -->
     <TextView
         android:id="@+id/restaurants"

@@ -40,6 +40,5 @@ public class Parks extends AppCompatActivity {
             // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
             // {@link ListView} will display list items for each {@link Word} in the list.
             listView.setAdapter(adapter);
-
         }
 }

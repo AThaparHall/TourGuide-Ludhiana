@@ -55,16 +55,16 @@ public class WordAdapter extends ArrayAdapter<Word> {
         timings.setText(currentWord.getTimings());
 
         // Find the TextView in the list_item.xml layout with the ID default_phone.
-        TextView defaultPhone = (TextView) listItemView.findViewById(R.id.default_phone);
+        TextView info = (TextView) listItemView.findViewById(R.id.info);
         // Get the Phone translation from the currentWord object and set this text on
         // the DefaultPhone TextView.
-        defaultPhone.setText(currentWord.getPhone());
+        info.setText(currentWord.getInfo());
 
         // Find the TextView in the list_item.xml layout with the ID default_address.
         TextView address = (TextView) listItemView.findViewById(R.id.default_address);
         // Get the Address translation from the currentWord object and set this text on
         // the DefaultAddress TextView.
-        address.setText(currentWord.getPhone());
+        address.setText(currentWord.getAddress());
 
         return listItemView;
 
