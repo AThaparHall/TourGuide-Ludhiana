@@ -18,16 +18,11 @@ public class Pictures extends AppCompatActivity {
 
             // Create a custom array list
             final ArrayList<Word> words = new ArrayList<Word>();
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info"));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info"));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info"));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
-            words.add(new Word("Spice Club", "+91 161 444 4450", "11am - 11:30pm", "Address", "Info" ));
+            words.add(new Word(R.drawable.pic1));
+            words.add(new Word(R.drawable.pic2));
+            words.add(new Word(R.drawable.pic3));
+            words.add(new Word(R.drawable.pic4));
+
             // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
             // adapter knows how to create list items for each item in the list.
             WordAdapter adapter = new WordAdapter(this, words);
